@@ -1,0 +1,16 @@
+.pagination{
+ text-align:center;
+ justify-content: center;
+}
+.pagination span{
+ text-decoration: none;
+ color:lightgrey;
+ padding: 0.5rem;
+ border: 1px solid lightgrey;
+ margin: 0 1rem;
+}
+.pagination span:hover,
+.pagination span:active{
+ background: lightgrey;
+ color:white;
+}

@@ -1,0 +1,145 @@
+
+.card {
+ border: none;
+ overflow: hidden;
+  background-color: #ecedee
+
+}
+
+.thumbnail_images ul {
+ list-style: none;
+ justify-content: center;
+ display: flex;
+ align-items: center;
+ margin-top: 10px;
+}
+
+.thumbnail_images ul li {
+ margin: 5px;
+ padding: 30px;
+ border: 2px solid #eee;
+ cursor: pointer;
+ transition: all 0.5s
+}
+
+.thumbnail_images ul li:hover {
+ border: 2px solid #000
+}
+
+.main_image {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-bottom: 1px solid #eee;
+ height: 400px;
+ width: 100%;
+ overflow: hidden
+}
+
+.heart {
+ height: 29px;
+ width: 29px;
+ background-color: #eaeaea;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center
+}
+
+.content p {
+ font-size: 22px;
+}
+
+.ratings span {
+ font-size: 14px;
+ margin-left: 12px
+}
+
+.colors {
+ margin-top: 5px
+}
+
+.colors ul {
+ list-style: none;
+ display: flex;
+ padding-left: 0px
+}
+
+.colors ul li {
+ height: 20px;
+ width: 20px;
+ display: flex;
+ border-radius: 50%;
+ margin-right: 10px;
+ cursor: pointer
+}
+.size {
+ margin-top: 5px
+}
+
+.size ul {
+ list-style: none;
+ display: flex;
+ padding-left: 0px;
+}
+
+.size ul li {
+ height: 60px;
+ width: 100px;
+ display: flex;
+ border-radius: 10%;
+ margin-right: 10px;
+ cursor: pointer;
+ background-color: #ecedee;
+ align-items: center;
+ justify-content: center;
+ padding:8px;
+ border:1px solid hsl(212, 8%, 63%);
+ transition: all 0.3s;
+}
+.size ul li:hover {
+  border:0.5px solid black;
+  background-color: hsl(220, 10%, 88%);
+}
+
+
+
+.right-side {
+ position: relative
+}
+
+.buttons .btn {
+ height: 50px;
+ width: 150px;
+ border-radius: 0px !important
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+ .thumbnail_images ul li {
+ margin: 2px;
+ padding: 3.5px;
+ border: 1px solid #eee;
+ width:77px ;
+ cursor: pointer;
+ transition: all 0.5s
+}
+}
+@media (max-width: 768px){
+   .thumbnail_images ul li {
+ margin: 2px;
+ padding: 10px;
+ border: 1px solid #eee;
+ cursor: pointer;
+ transition: all 0.5s
+}
+}
+
+@media (max-width: 1400px) and (min-width: 990px){
+     .thumbnail_images ul li {
+ margin: 2px;
+ padding: 20px;
+ border: 1px solid #eee;
+ cursor: pointer;
+ transition: all 0.5s
+}
+}
