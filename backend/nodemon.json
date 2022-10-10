@@ -1,9 +1,0 @@
-{
- "env":{
-  "DB_USER":"ani",
-  "DB_PASSWORD":"king",
-  "DB_NAME":"house-of-hoops",
-  "JWT_KEY":"supersecret_dont_share",
-  "SENDGRID_API_KEY":"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"
- }
-}
